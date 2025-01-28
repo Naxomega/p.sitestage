@@ -1,3 +1,36 @@
 #top {
-background-color: blue;
+background-image: url(./Assets/wallpapertop.jpg);
+background-size: 1946px 1110px;
+padding: 10px;
+border-radius: 25px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-image: url(./Assets/wallpaper.jpg);
+    background-size: 1920px 1080px;
+    
+}
+#content  {
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #ff000028;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#bottom {
+    position: static;
+    bottom: 0%; 
+    left: 0%; 
+    z-index: 10;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #ff000028;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: -10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
