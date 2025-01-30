@@ -5,7 +5,7 @@ padding: 10px;
 border-radius: 25px;
 color: white;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+padding-bottom: 25px;
 }
 body{
     background-image: url(./Assets/wallpaper.jpg);
@@ -33,4 +33,14 @@ body{
     margin-bottom: -10px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#rightalign{
+    float: right;   
+}
+#corners {
+    border-radius: 25px;
+}
+#centeralign {
+    align-items: center;
+    align-content: center;
 }
