@@ -1,64 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TITLE</title> <!-- &eacute; -->
-        <link rel="icon" type="image/ico" href="./Assets/favicon.ico" />
-        <link href="./style.css" rel="stylesheet" type="text/css">   
-      </head>
-      <body>
-        <div id="top">
-            <h1>HEADER</h1>
-            <a href="https://youtube.com"><button>Button 1</button></a>
-            <a href="https://google.com"><button>Button 2</button></a>
-            <a href="https://steampowered.com"><button>Button 3</button></a>
-            <a href="https://samsung.com"><button>Button 4</button></a>
-            <a href="https://amazon.fr"><button>Button 5</button></a>
-            <a href="https://reddit.com"><button>Button 6</button></a>
-        </div>
-        <br>
-        <div id="content">
-          <p>Lorem ipsum dolor sit amet, consectetur a<br>
-            dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam <br>
-            aliquam quaerat voluptatem. <br>
-            Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna <br>
-            accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. <br>
-            Quod idem licet transferre in.<br>
-            Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, <br>
-            cum esset accusata et vituperata ab Hortensio. <br>
-            Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. <br>
-            Praeterea bona praeterita grata recordatione renovata delectant. <br>
-            Est autem.<br>
-            Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio <br>
-            turpis est, cum esset accusata et vituperata ab Hortensio. <br>
-            Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. <br>
-            Praeterea bona praeterita grata recordatione renovata delectant. <br>
-            Est autem situm in nobis ut et voluptates et <br>
-            dolores nasci fatemur e corporis voluptatibus et doloribus -- itaque concedo, <br>
-            quod modo dicebas, cadere causa, si qui incurrunt, numquam vim.</p>
-            <div id="rightalign"><img src="./Assets/img1.jpg" height="169px" width="300px" id="corners"><h4 id="centeralign">Windows XP Wallpaper</h4></div>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur a<br>
-              dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam <br>
-              aliquam quaerat voluptatem. <br>
-              Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna <br>
-              accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. <br>
-              Quod idem licet transferre in.<br>
-              Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio turpis est, <br>
-              cum esset accusata et vituperata ab Hortensio. <br>
-              Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. <br>
-              Praeterea bona praeterita grata recordatione renovata delectant. <br>
-              Est autem.<br>
-              Ullus investigandi veri, nisi inveneris, et quaerendi defatigatio <br>
-              turpis est, cum esset accusata et vituperata ab Hortensio. <br>
-              Qui liber cum et mortem contemnit, qua qui est imbutus quietus esse numquam potest. <br>
-              Praeterea bona praeterita grata recordatione renovata delectant. <br>
-              Est autem situm in nobis ut et voluptates et <br>
-              dolores nasci fatemur e corporis voluptatibus et doloribus -- itaque concedo, <br>
-              quod modo dicebas, cadere causa, si qui incurrunt, numquam vim.</p>
-        </div>
-        <br>
-        <div id="bottom">
-          <h1>FOOTER</h1>
-        </div>
-      </body>
+  <head>
+    <title>TITLE</title> <!-- &eacute; -->
+    <!--<link rel="icon" type="image/ico" href="./Assets/favicon.ico" />-->
+    <link href="./style1.css" rel="stylesheet" type="text/css">
+    <script>
+      function button1(){
+        window.location.href = "./index2.html";}
+      function button2(){window.open("https://google.com",  "_blank");}
+      function button3(){window.open("https://steampowered.com",  "_blank");}
+      function button4(){window.open("https://samsung.com",  "_blank");}
+      function button5(){window.open("https://amazon.fr",  "_blank");}
+      function button6(){window.open("https://reddit.com",  "_blank");}
+    </script> 
+  </head>
+  <body>
+    <div id="top">
+      <h1>BTS Services Informatiques aux Organisations</h1>
+      <a onclick="button1()"><button>Button 1</button></a>
+      <a onclick="button2()"><button>Button 2</button></a>
+      <a onclick="button3()"><button>Button 3</button></a>
+      <a onclick="button4()"><button>Button 4</button></a>
+      <a onclick="button5()"><button>Button 5</button></a>
+      <a onclick="button6()"><button>Button 6</button></a>
+    </div>
+    <br>
+    <div id="content">
+      <h3>Option SLAM : Solutions Logicielles et Applications Métiers</h3>
+      <h3>Option SISR : Solutions d'Infrastructure, Systèmes et Réseaux</h3>
+      <div id="rightalign"><img src="./Assets/img1.jpg" height="169px" width="300px" id="corners"></div>
+      <h2>Compétences Visées</h2>
+      <ul>
+        <li>Concevoir et développer une solution d'infrastructure réseau</li>
+        <li>Installer, tester et déployer une solution d'infrastructure réseau</li>
+        <li>Base de la programmation et exploitation des données</li>
+      </ul>
+    </div>
+    <br>
+    <div id="bottom">
+      <h2>FOOTER</h2>
+      <a href="https://youtube.com"><button>Button 1</button></a>
+      <a href="https://instagram.com"><button>Button 2</button></a>
+      <a href="https://twitter.com"><button>Button 3</button></a>
+    </div>
+  </body>
 </html>
